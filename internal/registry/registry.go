@@ -27,6 +27,14 @@ func GetRegistry(path string) Registry {
 				path + "/zero-deployable-react-frontend",
 			},
 		},
+		{
+			"EKS + Empty Backend + Empty Frontend (React)",
+			[]string{
+				path + "/zero-aws-eks-stack",
+				path + "/zero-deployable-empty-backend",
+				path + "/zero-deployable-empty-frontend",
+			},
+		},
 	}
 }
 
